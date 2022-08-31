@@ -19,12 +19,6 @@ void main(List<String> args) {
 }
 
 
-
-
-
-
-
-
 String prompt(String promptText) {
   print("The prompt is: $promptText");
   String answer = stdin.readLineSync()!;
